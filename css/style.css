@@ -1,0 +1,211 @@
+
+/*---------INDEX---------*/
+
+/* Style the header */
+.header{
+	background-color: #737373;
+  	padding: 40px;
+  	text-align: center;
+  	font-size: 35px;
+  	color: white;
+}
+
+.box-out{
+	background-color: #2A3140;
+  	width: 600px;
+  	border: 20px;
+  	padding: 50px;
+  	margin: 150px;
+  	margin-left: auto;
+    margin-right: auto;
+}
+
+.box-login{
+	display: flex;
+    margin-bottom: 10px;
+    width: 100%;
+    position: relative;
+    left: 0;
+    box-sizing: 200px;
+}
+
+.formLogin{
+	width:500px;
+	padding:15px;
+	position: center;
+	margin:0 auto;
+	text-align: center;
+	background: #F2F2F2;
+	justify-content: center;
+}
+
+.body{
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	flex-direction: column;
+	position: relative;
+	background-color: #0D0D0D;
+}
+.img-background{
+	opacity: 0.1;
+	filter: grayscale(100%);
+}
+
+.box-user{
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+}
+
+.user{
+	display: block;
+	padding: 10px;
+	width: 100%;
+	cursor: pointer; /* nao está a funcionar bem*/
+}
+
+.pwd{
+	display: block;
+	padding: 10px;
+	width: 100%;
+	cursor: pointer;
+}
+
+.box-submit{
+	display: block;
+	padding: 10px;
+	width: 100%;
+	background: linear-gradient(to right, grey, #594E4D); 
+}
+
+
+/* Style the footer */
+.footer {
+	background-color: #2A3140;
+	position: fixed;
+	width: 100%;
+	height: 60px;
+	left: 0;
+	bottom: 0;
+	padding: 20px;
+	text-align: center;
+	color: white;
+}
+
+/* ---------DASHBOARD---------- */
+
+
+/*Style the header*/
+.header-dash{
+	background-color: #2A3140;
+  	padding: 30px;
+  	text-align: center;
+  	font-size: 35px;
+  	text-align: center;
+  	color: white;
+}
+
+/*Style the background */
+.body-dash{
+	background-color: #262020;
+}
+
+/* Style the jumbotron alarm*/
+.jumbotron{
+	text-align: center;
+	padding: 30px;
+	background-color: #737373;
+}
+
+/*Style the card body title*/
+.card-body-title{
+	background-color: #737373;
+	padding: 10px;
+	text-align: center;
+}
+
+/* Style the card text title*/
+.card-text{
+	text-align: center;
+}
+
+
+/* Style the card */
+.card-text-sub{
+	text-align: center;
+}
+
+/* Style the images*/
+.bd-placeholder-img{
+	width: 30%;
+	align-items: center;
+	margin-left: auto;
+  	margin-right: auto;
+  	padding: 10px;
+}
+
+/*Style the card header*/
+.card-header{
+	text-align: center;
+	background-color: #737373;
+}
+
+/* Style the table of actualizations*/
+table, tr, th, td 
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th, td {
+    padding: 10px;
+}
+
+.tr-title{
+	background-color: #BFBFBF;
+}
+
+
+.card-header{
+	text-align: center;
+}
+
+/*Style the footer*/
+.footer-dash{
+	background-color: #2A3140;
+	position: fixed;
+	width: 100%;
+	height: 40px;
+	left: 0;
+	bottom: 0;
+	padding: 10px;
+	text-align: center;
+	color: white;
+}
+
+/*-----------HISTORY-----------*/
+
+/*Style the header*/
+.header-history{
+	background-color: #2A3140;
+  	padding: 30px;
+  	text-align: center;
+  	font-size: 35px;
+  	text-align: center;
+  	color: white;
+}
+
+/*Style the footer*/
+.footer-history{
+	background-color: #2A3140;
+	position: fixed;
+	width: 100%;
+	height: 40px;
+	left: 0;
+	bottom: 0;
+	padding: 10px;
+	text-align: center;
+	color: white;
+}
